@@ -1,0 +1,55 @@
+[
+  {
+    "id_imprumut": 1,
+    "membru": {
+      "id_membru": 101,
+      "nume": "Popescu",
+      "prenume": "Ion",
+      "adresa": "Str. Principala, nr. 10, Bucuresti",
+      "email": "popescu.ion@gmail.com",
+      "telefon": "0722123456"
+    },
+    "carte": {
+      "id_carte": 1001,
+      "titlu": "Mândrie și prejudecată",
+      "autor": "Jane Austen",
+      "gen": "Roman",
+      "editura": "Editura A",
+      "ISBN": "978-606-983-345-8",
+      "numar_pagini": 416
+    },
+    "data_imprumut": "2023-03-15",
+    "data_limita_returnare": "2023-04-15"
+  },
+  {
+    "id_imprumut": 2,
+    "membru": {
+      "id_membru": 102,
+      "nume": "Ionescu",
+      "prenume": "Maria",
+      "adresa": "Str. Libertății, nr. 25, Cluj-Napoca",
+      "email": "maria.ionescu@gmail.com",
+      "telefon": "0733123456",
+      "varsta": 30,
+      "gen": "F",
+      "data_inregistrare": "2022-12-01",
+      "istoric_imprumuturi": [
+        {"id_imprumut": 1, "data_imprumut": "2023-03-10", "data_returnare": "2023-04-01"},
+        {"id_imprumut": 5, "data_imprumut": "2023-05-20", "data_returnare": null}
+      ]
+    },
+    "carte": {
+      "id_carte": 1002,
+      "titlu": "Romeo și Julieta",
+      "autor": "William Shakespeare",
+      "gen": "Tragedie",
+      "editura": "Editura B",
+      "ISBN": "978-606-784-202-7",
+      "numar_pagini": 256
+    },
+    "data_imprumut": "2023-03-20",
+    "data_limita_returnare": "2023-04-20"
+  }
+]
+
+}
